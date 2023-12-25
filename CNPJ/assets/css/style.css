@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to bottom, #95a2aa, #2c3e50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-group {
+    background-color: rgba(42, 1, 243, 0.9);
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+label {
+    font-weight: bold;
+}
+
+input.form-control {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .form-group {
+        width: 400px;
+    }
+}
