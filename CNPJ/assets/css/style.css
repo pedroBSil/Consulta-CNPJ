@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #95a2aa, #2c3e50);
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,10 +8,10 @@ body {
 }
 
 .form-group {
-    background-color: rgba(42, 1, 243, 0.9);
+    background-color: aliceblue;
     padding: 20px;
     margin-top: 20px;
-    border-radius: 10px; 
+    border-radius: 15px;
 }
 
 label {
